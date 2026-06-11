@@ -1,0 +1,70 @@
+{
+  "name": "Emmanuel — Apps & Design",
+  "short_name": "Emmanuel",
+  "description": "PWA developer freelance, designer e podcaster. Cosenza.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "icona.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icona.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icona.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icona.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Portfolio desktop"
+    },
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Portfolio mobile"
+    }
+  ],
+  "categories": ["portfolio", "productivity", "business"],
+  "shortcuts": [
+    {
+      "name": "Podcast",
+      "short_name": "Podcast",
+      "description": "Vai al podcast",
+      "url": "/#podcast",
+      "icons": [{ "src": "icona.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contatti",
+      "short_name": "Contatti",
+      "description": "Contatta Emmanuel",
+      "url": "/#contact",
+      "icons": [{ "src": "icona.png", "sizes": "192x192" }]
+    }
+  ]
+}
